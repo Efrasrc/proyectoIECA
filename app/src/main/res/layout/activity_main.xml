@@ -7,27 +7,27 @@
    <ImageView
        android:id="@+id/imageView0"
        android:layout_width="match_parent"
-       android:layout_height="160dp"
-       android:src="@drawable/my_fondo"
+       android:layout_height="wrap_content"
+       android:src="@drawable/pic_android"
        android:scaleType="centerCrop"
-       android:padding="1dp">
+       android:padding="50dp">
    </ImageView>
 
    <ImageView
        android:id="@+id/imageView1"
        android:layout_width="match_parent"
-       android:layout_height="100dp"
-       android:src="@drawable/my_android"
+       android:layout_height="160dp"
+       android:src="@drawable/my_fondo"
        android:scaleType="centerCrop"
        android:padding="0dp">
    </ImageView>
 
    <EditText
-       android:id="@+id/usserText"
+       android:id="@+id/ussText"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:hint="Ingresa tu Usuario"
-       android:paddingTop="100dp">
+       android:paddingTop="20dp">
    </EditText>
 
    <EditText
@@ -36,17 +36,30 @@
        android:layout_height="wrap_content"
        android:hint="Ingresa tu Contraseña"
        android:inputType="textPassword"
-       android:paddingTop="100dp">
+       android:paddingTop="20dp">
    </EditText>
 
    <Button
-       android:id="@+id/okButton"
+       android:id="@+id/loginBtn"
        android:layout_width="wrap_content"
        android:layout_height="50dp"
        android:text="ENTRAR"
-       android:layout_marginTop="100dp"
-       android:layout_marginLeft="150dp">
+       android:paddingTop="0dp"
+       android:layout_marginTop="40dp"
+       android:layout_marginLeft="140dp">
    </Button>
+
+
+   <TextView
+       android:id="@+id/msj"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=""
+       android:paddingTop="20dp"
+       >
+
+   </TextView>
+
 
 
 
