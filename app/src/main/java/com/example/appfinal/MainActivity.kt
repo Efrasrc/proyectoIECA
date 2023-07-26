@@ -58,9 +58,9 @@ class MainActivity : ComponentActivity() {
 
         okBtn.setOnClickListener {
 
-            val intent = Intent(this,menu::class.java)
-            startActivity(intent)
-/*
+           // val intent = Intent(this,menu::class.java)
+           // startActivity(intent)
+
             val email = editText.text.toString()
             val password = editText2.text.toString()
 
@@ -77,7 +77,7 @@ class MainActivity : ComponentActivity() {
 
                         menss.text = "email o contraseña incorrecta"
                     }
-                }*/
+                }
         }
 
 
